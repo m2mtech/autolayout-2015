@@ -13,6 +13,7 @@
 		5B7D62A31A9A542E0015DA6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D62A21A9A542E0015DA6C /* Images.xcassets */; };
 		5B7D62A61A9A542E0015DA6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D62A41A9A542E0015DA6C /* LaunchScreen.xib */; };
 		5B7D62B21A9A542E0015DA6C /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D62B11A9A542E0015DA6C /* AutolayoutTests.swift */; };
+		5B7D62BC1A9A5BA80015DA6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D62BB1A9A5BA80015DA6C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		5B7D62AB1A9A542E0015DA6C /* AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7D62B01A9A542E0015DA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7D62B11A9A542E0015DA6C /* AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTests.swift; sourceTree = "<group>"; };
+		5B7D62BB1A9A5BA80015DA6C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B7D62BD1A9A67D30015DA6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		5B7D628D1A9A542D0015DA6C = {
 			isa = PBXGroup;
 			children = (
+				5B7D62BD1A9A67D30015DA6C /* README.md */,
 				5B7D62981A9A542D0015DA6C /* Autolayout */,
 				5B7D62AE1A9A542E0015DA6C /* AutolayoutTests */,
 				5B7D62971A9A542D0015DA6C /* Products */,
@@ -77,11 +81,10 @@
 		5B7D62981A9A542D0015DA6C /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				5B7D629B1A9A542E0015DA6C /* AppDelegate.swift */,
 				5B7D629D1A9A542E0015DA6C /* ViewController.swift */,
 				5B7D629F1A9A542E0015DA6C /* Main.storyboard */,
+				5B7D62BB1A9A5BA80015DA6C /* User.swift */,
 				5B7D62A21A9A542E0015DA6C /* Images.xcassets */,
-				5B7D62A41A9A542E0015DA6C /* LaunchScreen.xib */,
 				5B7D62991A9A542E0015DA6C /* Supporting Files */,
 			);
 			path = Autolayout;
@@ -90,6 +93,8 @@
 		5B7D62991A9A542E0015DA6C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B7D62A41A9A542E0015DA6C /* LaunchScreen.xib */,
+				5B7D629B1A9A542E0015DA6C /* AppDelegate.swift */,
 				5B7D629A1A9A542E0015DA6C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +219,7 @@
 			files = (
 				5B7D629E1A9A542E0015DA6C /* ViewController.swift in Sources */,
 				5B7D629C1A9A542E0015DA6C /* AppDelegate.swift in Sources */,
+				5B7D62BC1A9A5BA80015DA6C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
